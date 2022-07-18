@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador / Desencriptador</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../js/main.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="contenedor">
+
+            <div class="logo">
+                <img class="imagenLogo" src="../images/Logo.png" alt="logoAlura">
+                <h1 class="tituLogo">Encriptador / Desencriptador</h1>
+            </div>
+                
+            <div class="izquierda">
+                <input class='texto' type="textarea" placeholder="Ingrese el texto aqui...">
+            </div>
+
+            <div class="derecha">
+                <img id="muñeco" src="../images/Muñeco.png" alt="imagen decorativa">
+                <h2 id="muñecoMensaje">Ningun Mensaje Encontrado</h2>
+                <p id="muñecoTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="copiar" onclick="copiar()"> 
+                    <p id= botonCopiar>Copiar texto</p>
+                </button>
+
+            </div>
+
+            <div>
+                <p id="alerta">&#9888 Solo minusculas y sin acentos.</p>
+                <button id="botonEncrip" onclick="encriptar()">
+                    <p id='boton1' >Encriptar</p> 
+                </button>
+
+                <button id="botonDesencrip" onclick="desencriptar()">
+                    <p id="boton2" >Desencriptador<p>
+                </button>
+            </div>
+        
+        </div>
+    </section>
+<footer>
+    Desarrollado por GraSo
+</footer>
+
+
+    <script src="../js/main.js"></script>     
+
+</body>
+
+</html>
+
