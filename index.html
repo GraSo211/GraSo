@@ -12,49 +12,50 @@
 </head>
 
 <body>
-    <section>
-        <div class="contenedor">
+    <header>
+        <img class="imagenLogo" src="Logo.png" alt="logoAlura">
+        <h1 class="tituLogo">Encriptador / Desencriptador</h1>
+    </header>
+    <section class="contenedor">
 
-            <div class="logo">
-                <img class="imagenLogo" src="Logo.png" alt="logoAlura">
-                <h1 class="tituLogo">Encriptador / Desencriptador</h1>
-            </div>
-                
-            <div class="izquierda">
-                <input class='texto' type="textarea" placeholder="Ingrese el texto aqui...">
-            </div>
-
-            <div class="derecha">
-                <img id="muñeco" src="Muñeco.png" alt="imagen decorativa">
-                <h2 id="muñecoMensaje">Ningun Mensaje Encontrado</h2>
-                <p id="muñecoTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
-                <button id="copiar" onclick="copiar()"> 
-                    <p id= botonCopiar>Copiar texto</p>
-                </button>
-
-            </div>
-
+        <div class="izquierda">
+            <input class='texto' type="textarea" placeholder="Ingrese el texto aqui...">
             <div>
                 <p id="alerta">&#9888 Solo minusculas y sin acentos.</p>
                 <button id="botonEncrip" onclick="encriptar()">
-                    <p id='boton1' >Encriptar</p> 
+                    <p id='boton1'>Encriptar</p>
                 </button>
-
+    
                 <button id="botonDesencrip" onclick="desencriptar()">
-                    <p id="boton2" >Desencriptador<p>
+                    <p id="boton2">Desencriptador
+                    <p>
                 </button>
             </div>
-        
         </div>
+
+
+        <div class="derecha">
+            <img id="muñeco" src="Muñeco.png" alt="imagen decorativa">
+            <h2 id="muñecoMensaje">Ningun Mensaje Encontrado</h2>
+            <p id="muñecoTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button id="copiar" onclick="copiar()">
+                <p id=botonCopiar>Copiar texto</p>
+            </button>
+
+        </div>
+
+
+
+
     </section>
-<footer>
-    Desarrollado por GraSo
-</footer>
+
+    <footer>
+        Desarrollado por GraSo
+    </footer>
 
 
-    <script src="main.js"></script>     
+    <script src="main.js"></script>
 
 </body>
 
 </html>
-
